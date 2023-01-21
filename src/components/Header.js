@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <ul className="nav">
-            <li>MINIJA</li>
+            <li className="nav-title">Minija</li>
             <li>about</li>
             <li>education</li>
             <li>experience</li>
