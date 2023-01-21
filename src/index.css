@@ -9,20 +9,20 @@ body {
 }
 .nav {
     list-style-type: none;
-    box-shadow: 10px 10px #AE4C6F;
+    box-shadow: 10px 10px 10px #AE4C6F;
 }
 .nav-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 110%;
     text-transform: uppercase;
-    padding-bottom: 40px !important;
+    padding-bottom: 70px !important;
 }
 .nav li {
     font-weight: 400;
     font-size: 30px;
     line-height: 38px;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
 .section {
     padding-top: 50px;
@@ -45,9 +45,9 @@ body {
 }
 .section-img {
     object-fit: cover;
-    height: 243px;
+    max-height: 243px;
     width: 100%;
     opacity: 0.6;
-    filter: drop-shadow(10px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(15px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 40px;
 }
