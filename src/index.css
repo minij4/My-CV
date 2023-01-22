@@ -8,7 +8,35 @@ body {
 .main {
     text-align: center;
     padding: 0px 50px;
+    padding-bottom: 50px;
 }
+
+
+/* Circles on the background */
+
+.bg-purple {
+    position: absolute;
+    height: 241px;
+    left: -28.61%;
+    right: 46.39%;
+    top: -113px;
+    z-index: -1;
+    background: #7F2E86;
+    filter: blur(100px);
+}
+.bg-pink {
+    position: absolute;
+    height: 256px;
+    left: 48.61%;
+    right: -28.61%;
+    top: 615px;
+    z-index: -1;
+    background: #AE4C6F;
+    filter: blur(125px);
+}
+
+/* Navigation */
+
 .nav {
     list-style: none;
     box-shadow: 10px 10px 10px #AE4C6F;
@@ -30,6 +58,9 @@ body {
     line-height: 38px;
     padding-bottom: 35px;
 }
+
+/* Section */
+
 .section {
     padding-top: 50px;
 }
@@ -57,3 +88,69 @@ body {
     filter: drop-shadow(15px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 40px;
 }
+
+/* Logos */
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: #462448;
+    border-radius: 10px;
+    mix-blend-mode: luminosity;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+/* Interest */
+.interest {
+    height: auto;
+    background: linear-gradient(158.25deg, rgba(70, 36, 72, 0.49) 40.98%, rgba(91, 15, 97, 0.49) 53.19%, rgba(137, 48, 145, 0.49) 85.19%);    border-radius: 10px;
+    padding: 20px;
+}
+
+.interest-title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 110%;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.interest-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    text-transform: capitalize;
+    text-shadow: 10px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.interest-email {
+    padding: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: white;
+
+    background: #5B405E;
+    border: none;
+    border-radius: 53px;
+}
+.social-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+    background: linear-gradient(333.09deg, rgba(70, 36, 72, 0.49) 24.41%, rgba(91, 15, 97, 0.49) 38.59%, rgba(137, 48, 145, 0.49) 75.5%);    border-radius: 10px;
+}
+.social-logos * {
+    mix-blend-mode: luminosity;
+}
+/* Credit */
+
