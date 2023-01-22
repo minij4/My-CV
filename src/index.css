@@ -2,21 +2,27 @@ body {
     font-family: 'Outfit';
     color: #FFFFFF;
     background-color: #3B0E3F;
+    margin: 0;
+    padding: 0;
 }
 .main {
     text-align: center;
     padding: 0px 50px;
 }
 .nav {
-    list-style-type: none;
+    list-style: none;
     box-shadow: 10px 10px 10px #AE4C6F;
+    padding: 0;
+    margin: 0;
+    transition: all 1s ease;
 }
 .nav-title {
+    cursor: pointer;
     font-weight: 700;
     font-size: 40px;
     line-height: 110%;
     text-transform: uppercase;
-    padding-bottom: 70px !important;
+    padding-bottom: 40px;
 }
 .nav li {
     font-weight: 400;
