@@ -43,6 +43,8 @@ export default function App() {
                 title="Are You interested?"
                 text="Let me bring your ideas to life!"
             />
+
+            <p className="credit">© 2023 Minija development. All rights reserved.</p>
         </div>
     );
 }

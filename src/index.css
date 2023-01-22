@@ -44,13 +44,16 @@ body {
     margin: 0;
     transition: all 1s ease;
 }
+.nav-icon {
+    height: 40px;
+    margin-bottom: 20px;
+}
 .nav-title {
     cursor: pointer;
     font-weight: 700;
     font-size: 40px;
     line-height: 110%;
     text-transform: uppercase;
-    padding-bottom: 40px;
 }
 .nav li {
     font-weight: 400;
@@ -152,5 +155,16 @@ body {
 .social-logos * {
     mix-blend-mode: luminosity;
 }
+
+
 /* Credit */
+
+.credit {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 110%;
+    text-transform: capitalize;
+}
 

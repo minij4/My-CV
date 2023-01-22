@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import {Animated} from "react-animated-css";
+import menuIcon from "./menu.png"
 
 
 export default function Header() {
@@ -22,7 +24,8 @@ export default function Header() {
 
     return (
         <div>
-            <h1 className="nav-title" onClick={showNav} style={styles}>Minija</h1>
+            <h1 className="nav-title" style={styles}>Minija</h1>
+            <img src={menuIcon} className="nav-icon" onClick={showNav}></img>
                 {navShow == true &&
                     <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={navShow}>
                         <ul className="nav">
