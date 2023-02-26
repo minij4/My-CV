@@ -10,7 +10,7 @@ export default function Social(props) {
     })
 
     return (
-        <div className="social">
+        <div className="social" id="contacts">
             <div className="interest">
                 <h1 className="interest-title">{props.title}</h1>
                 <h2 className="interest-text">{props.text}</h2>

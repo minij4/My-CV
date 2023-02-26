@@ -22,6 +22,8 @@ export default function Header() {
         config: { mass: 10, tension: 10, friction: 10 }
     }
 
+    
+
     return (
         <div>
             <h1 className="nav-title" style={styles}>Minija</h1>
@@ -29,10 +31,10 @@ export default function Header() {
                 {navShow == true &&
                     <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={navShow}>
                         <ul className="nav">
-                            <li>about</li>
-                            <li>education</li>
-                            <li>experience</li>
-                            <li>contact</li>
+                            <li><a href="#aboutme">about</a></li>
+                            <li><a href="#education">education</a></li>
+                            <li><a href="#experience">experience</a></li>
+                            <li><a href="#contacts">contacts</a></li>
                         </ul>
                     </Animated>
                 }

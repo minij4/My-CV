@@ -18,6 +18,6 @@ npm start
 
 Or simply check here:
 
-[Website online (not working yet)](https://minija.online)
+[Website online](https://minija.net/)
 
 [Figma design](https://www.figma.com/file/q21gxorFs0EsaPKxq6VxR8/CV-website?node-id=0%3A1&t=F4RpVojRfTzmigjC-1)
